@@ -5636,6 +5636,8 @@ static const char *__doc_mitsuba_PositionSample_apply_3 = R"doc()doc";
 
 static const char *__doc_mitsuba_PositionSample_apply_label = R"doc()doc";
 
+static const char *__doc_mitsuba_PositionSample_pidx = R"doc()doc";
+
 static const char *__doc_mitsuba_PositionSample_delta =
 R"doc(Set if the sample was drawn from a degenerate (Dirac delta)
 distribution)doc";
