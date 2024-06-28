@@ -5638,6 +5638,8 @@ static const char *__doc_mitsuba_PositionSample_apply_label = R"doc()doc";
 
 static const char *__doc_mitsuba_PositionSample_pidx = R"doc()doc";
 
+static const char *__doc_mitsuba_PositionSample_buv = R"doc()doc";
+
 static const char *__doc_mitsuba_PositionSample_delta =
 R"doc(Set if the sample was drawn from a degenerate (Dirac delta)
 distribution)doc";
@@ -8946,6 +8948,8 @@ Returns:
     coordinates.)doc";
 
 static const char *__doc_mitsuba_SurfaceInteraction_uv = R"doc(UV surface coordinates)doc";
+
+static const char *__doc_mitsuba_SurfaceInteraction_buv = R"doc(Barycentric UV coordinates)doc";
 
 static const char *__doc_mitsuba_SurfaceInteraction_wi = R"doc(Incident direction in the local shading frame)doc";
 
